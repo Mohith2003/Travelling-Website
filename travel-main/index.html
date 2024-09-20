@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+    <div id="arrow">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="menu-par">
+                <div class="logo-par">
+                    <a href="index.html">
+                        <h2>Team Adventures</h2>
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a class="menu-hover" href="index.html">Home</a></li>
+                        <li><a class="menu-hover" href="#t1">Travel</a></li>
+                        <li><a class="menu-hover" href="#t2">Book Now</a></li>
+                        <li><a class="menu-hover" href="#t3">Gallery</a></li>
+                        <li><a class="menu-hover" href="#t4">Holiday</a></li>
+                        <li><a class="menu-hover" href="#t5">Events</a></li>
+                    </ul>
+                </div>
+                <div id="toggle-btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header-info-par">
+                <h1 class="typewrite" data-period="2000"
+                    data-type='["Happiness is closer than you think","Adventure Awaits, go find it.","Dont be a tourist, be a traveler."]'>
+                </h1>
+                <p>Discover breathtaking destinations, immerse in diverse cultures, and create unforgettable memories
+                     with our expert travel guides and tips</p>
+                <a href="#t2" class="a">Read More</a>
+            </div>
+            <div class="video">
+                <video id="video" autoplay loop muted>
+                    <source src="images/travel-video.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </header>
+    <!-- Second Slides Section -->
+    <section id="welcome-text">
+        <div class="container">
+            <h2 id="t1">The Official Travel Site for adventerous countries
+
+            </h2>
+            
+            <p>Where will your next adventure take you?</p>
+        </div>
+    </section>
+    <!-- Slides Section Start-->
+    <section id="slides-par">
+        <div class="container">
+            <div class="slides">
+                <div class="slide_1 slide_2">
+                    <div class="slide-info">
+                        <p>Singapore</p>
+                        <p><a href="singapore.html">Click Here</a></p>
+
+                    </div>
+                </div>
+                <div class="slide_1 slide_3">
+                    <div class="slide-info">
+                        <p>Andaman And Nicobar Islands</p>
+                        <p><a href="andaman.html">Click Here</a></p>
+
+                    </div>
+                </div>
+                <div class="slide_1 slide_4">
+                    <div class="slide-info">
+                        <p>Dubai</p>
+                        <p><a href="dubai.html">Click Here</a></p>
+
+                    </div>
+                </div>
+                <div class="slide_1 slide_6">
+                    <div class="slide-info">
+                        <p>Bangkok</p>
+                        <p><a href="bangkok.html">Click Here</a></p>
+
+                    </div>
+                </div>
+                <div class="slide_1 slide_7">
+                    <div class="slide-info">
+                        <p>Italy</p>
+                        <p><a href="italy.html">Click Here</a></p>
+
+                    </div>
+                </div>
+                <div class="slide_1 slide_8">
+                    <div class="slide-info">
+                        <p>Malasiya</p>
+                        <p><a href="singapore.html">Click Here</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slides Section Start-->
+
+    <!-- Book Now Section Start -->
+    <section id="book">
+        <div class="container">
+            <div class="book-content-par">
+                <div class="book-counter">
+                    <h3 id="t2">Book Now</h3>
+                    <div id="clockdiv">
+                        <div>
+                            <span class="days"></span>
+                            <div class="smalltext">Days</div>
+
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                            <div class="smalltext">Hours</div>
+
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                            <div class="smalltext">Minutes</div>
+
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                            <div class="smalltext">Seconds</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="book-form">
+                    <form>
+                        <input type="text" id="fname" name="firstname" placeholder="First Name...">
+                        <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+                        <select name="country" id="country">
+                            <option value="20000">Singapore</option>
+                            <option value="10000">Andaman</option>
+                            <option value="30000">Dubai</option>
+                            <option value="25000">Bangkok</option>
+                            <option value="100000">Italy</option>
+                            <option value="50000">Malaysia</option>
+                        </select>
+                        <input type="text" id="email" name="email" placeholder="email">
+                        <input type="text" id="phno" name="PhoneNumber" placeholder="PhoneNumber">
+                        <input type="text" id="payment" name="payment" placeholder="Payment" readonly>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Book Now Section End -->
+
+    <!-- Gallery Section Starts -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div align="center" class="filter-btn-par">
+                    <h3 id="t3">Gallery</h3>
+                    <button class="filter-button" data-filter="all">ALL</button>
+                    <button class="filter-button" data-filter="diving">DIVING</button>
+                    <button class="filter-button" data-filter="nature">NATURE</button>
+                    <button class="filter-button" data-filter="dining">Hotels</button>
+                </div>
+                <div class="filter-gal-par">
+                    <div class="gallery-item filter diving">
+                        <img src="images/fiji-surprise/diving1.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter diving">
+                        <img src="images/fiji-surprise/diving2.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter diving">
+                        <img src="images/fiji-surprise/diving3.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter dining">
+                        <img src="images/fiji-surprise/dining1.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter dining">
+                        <img src="images/fiji-surprise/dining2.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="images/fiji-surprise/nature1.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="images/fiji-surprise/nature2.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="images/fiji-surprise/nature3.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Ends -->
+
+    <!-- Mutiple Slider Section Starts -->
+    <section id="water-slider">
+        <div class="container">
+            <h3 id="t4">Start Planning Your Dream Holiday</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/slider/bangcok.jpg" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Bangkok</h3>
+                            <p>THAILAND</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/slider/Rome.jpg" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Rome</h3>
+                            <p>ITALY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/travel-main/images/recipe_slides/recipe3.jpg" height="250" width="100"/>
+                        <div class="owl-img-info">
+                            <h3>Malacca</h3>
+                            <p>Malasiya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/slider/dubai.jpg" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Dubai</h3>
+                            <p>EMIRATES</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/travel-main/images/recipe_slides/recipe1.jpg"height="250" width="100" />
+                        <div class="owl-img-info">
+                            <h3>Jurong</h3>
+                            <p>Singapore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section Starts -->
+    <section id="blog">
+        <div class="container">
+            <h3 id="t5">News And Events</h3>
+            <div class="blog-par">
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/travel-main/images/events/events1.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <h4></h4>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/travel-main/images/events/events2.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <h4></h4>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="blog-par">
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/travel-main/images/events/events3.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <h4></h4>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/travel-main/images/events/events4.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <h4></h4>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mutiple Slider Section Ends -->
+
+    <!-- Footer Starts-->
+    <footer>
+        
+        <p class="copyright">Copyright © 2024 Created By Team Adventures</p>
+    </footer>
+    <script>
+        document.getElementById('country').addEventListener('change', function() {
+            const selectedOption = this.options[this.selectedIndex];
+            const paymentAmount = selectedOption.value;
+            document.getElementById('payment').value = paymentAmount;
+        });
+    </script>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/extrenaljq.js"></script>
+</body>
+
+</html>
